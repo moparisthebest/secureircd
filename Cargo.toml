@@ -1,0 +1,19 @@
+[package]
+name = "secureircd"
+version = "1.0.0"
+authors = ["moparisthebest <admin@moparisthebest.com>"]
+
+description = "Secure your IRCd."
+repository  = "https://code.moparisthebest.com/moparisthebest/secureircd"
+keywords    = ["irc", "ircd"]
+
+license = "AGPL-3.0+"
+readme = "README.md"
+
+edition = "2018"
+
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+    "*.md",
+]
